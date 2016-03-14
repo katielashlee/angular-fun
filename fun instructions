@@ -1,0 +1,14 @@
+fun instructions
+
+mkdir -p client/app/hello
+mv index.html client/index.html
+
+touch client/app.js
+touch client/app/hello/hello.controller.js
+touch client/app/hello/say-hello.directive.js
+
+npm install angular-route
+
+
+
+

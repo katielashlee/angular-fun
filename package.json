@@ -1,0 +1,17 @@
+{
+  "name": "fun",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.5.0",
+    "angular-route": "^1.5.0",
+    "connect": "^3.4.1",
+    "serve-static": "^1.10.2"
+  }
+}
