@@ -1,6 +1,6 @@
 # Fun with angular
 
-### To Install
+### Items to Install
 * [git](https://git-scm.com/downloads)
 * [Nodejs](https://nodejs.org/en/)
 * [Sublime Text](https://www.sublimetext.com/3)
@@ -20,4 +20,14 @@ Then check npm
 ```
 $ npm -v
 3.6.0
+```
+
+Running the project
+```
+node server.js
+```
+
+Open your browser to
+```
+http://localhost:8080
 ```
