@@ -1,8 +1,9 @@
 # Fun with angular
 
 ### To Install
-* Nodejs
-* Sublime Text
+* [git](https://git-scm.com/downloads)
+* [Nodejs](https://nodejs.org/en/)
+* [Sublime Text](https://www.sublimetext.com/3)
 
 #### Checking the node version
 open a command prompt
