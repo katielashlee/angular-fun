@@ -1,5 +1,9 @@
-<button say-hello type='button'>hello</button>
+<!--<button say-hello type='button'>hello</button>-->
 
-<div class="squares">
-    <div class="square"></div>
+<div class="squares" infinite-scroll="vm.getSquares()" can-load="vm.canLoad" threshold="1000">
+    <div class="square" ng-repeat="i in vm.squares track by $index">
+        <span>
+            {{$index + 1}}
+        </span>
+    </div>
 </div>
