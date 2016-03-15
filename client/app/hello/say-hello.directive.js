@@ -1,5 +1,5 @@
 'use strict';
-(function() {
+(function () {
   angular
     .module('app')
     .directive('sayHello', sayHello);
@@ -9,7 +9,7 @@
       restrict: 'A',
       scope: {},
       link: link
-    }
+    };
 
     function link(scope, el, attrs, ctrl) {
       el.bind('click', function () {

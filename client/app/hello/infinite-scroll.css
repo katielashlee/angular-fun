@@ -1,32 +1,33 @@
 body {
-    background-color: lightgray;
-    font-family: Arial, sans-serif;
-    color: #fff;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
+  background-color: lightgray;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
 }
+
 /*https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
 .squares {
-    display: flex;
-    align-items: center;
-    flex-flow: row wrap;
-    justify-content: center;
-    height:100%;
-    overflow: auto;
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  justify-content: center;
+  height: 100%;
+  overflow: auto;
 }
 
 .square {
-    background-color: royalblue;
-    width: 100px;
-    height: 100px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 10px;
+  background-color: royalblue;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
 }
 
 .square span {
-    vertical-align: middle;
+  vertical-align: middle;
 }

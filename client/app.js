@@ -1,12 +1,12 @@
 'use strict';
-(function() {
+(function () {
 
   angular
     .module('app', [
       'ngRoute',
       'app.hello'
     ])
-    .config(function($routeProvider, $locationProvider) {
+    .config(function ($routeProvider, $locationProvider) {
       $routeProvider
         .when('/', {
           templateUrl: './app/hello/hello.html',
