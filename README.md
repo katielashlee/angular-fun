@@ -1,4 +1,4 @@
-# Fun with angular
+Katie # Fun with angular
 
 ### Items to Install
 * [git](https://git-scm.com/downloads)
